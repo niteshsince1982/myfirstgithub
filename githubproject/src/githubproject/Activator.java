@@ -20,5 +20,9 @@ public class Activator implements BundleActivator {
 	public void stop(BundleContext context) throws Exception {
 		System.out.println("Goodbye World!!");
 	}
+	
+	public void testMethod(){
+		System.out.println("ok");
+	}
 
 }
